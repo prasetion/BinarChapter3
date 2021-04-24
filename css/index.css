@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas%20Neue');
+@import url('https://fonts.googleapis.com/css?family=Open%20Sans');
+h1,
+h2,
+h3 {
+    font-family: "Bebas Neue";
+}
+
+body {
+    font-family: "Open Sans";
+}
+
+.logo {
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navigation {
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.navbar {
+    background-color: black;
+    opacity: 0.5;
+}
+
+
+/*header style*/
+
+.header {
+    background-image: url('../assets/main-bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.description {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+
+/* .description h1 {
+    color: #F97300;
+}
+
+.description p {
+    color: #666;
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+} */
+
+.description button {
+    border: 1px solid #F97300;
+    background: #F97300;
+    color: #fff;
+}
