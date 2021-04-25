@@ -10,6 +10,11 @@ body {
     font-family: "Open Sans";
 }
 
+.btn {
+    font-family: "Open Sans";
+    font-weight: bolder;
+}
+
 .logo {
     font-family: "Open Sans";
     font-weight: bold;
@@ -66,4 +71,8 @@ body {
 
 .fifth-page {
     background-image: url("../assets/top-score-bg.png");
+}
+
+.mylist {
+    list-style-type: circle;
 }
