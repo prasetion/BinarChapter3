@@ -1,11 +1,5 @@
-$(document).ready(function() {
-    $('.header').height($(window).height());
+$(".jumbotron").css({ height: $(window).height() + "px" });
 
-    $(".navbar a").click(function() {
-        $("body,html").animate({
-            scrollTop: $("#" + $(this).data('value')).offset().top
-        }, 1000)
-
-    })
-
-})
+$(window).on("resize", function() {
+    $(".jumbotron").css({ height: $(window).height() + "px" });
+});

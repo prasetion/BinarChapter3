@@ -28,37 +28,42 @@ body {
     opacity: 0.5;
 }
 
-
-/*header style*/
-
-.header {
-    background-image: url('../assets/main-bg.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-}
-
-.description {
-    position: absolute;
-    top: 30%;
+.jumbotron {
     margin: auto;
-    padding: 2em;
 }
 
 
-/* .description h1 {
-    color: #F97300;
+/* page */
+
+.page {
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(37, 37, 37);
+    height: 100vh;
 }
 
-.description p {
-    color: #666;
-    font-size: 20px;
-    width: 50%;
-    line-height: 1.5;
-} */
+.first-page {
+    background-image: url("../assets/main-bg.jpg");
+}
 
-.description button {
-    border: 1px solid #F97300;
-    background: #F97300;
-    color: #fff;
+.first-page h1 {
+    font-family: "Open Sans";
+}
+
+.second-page {
+    background-image: url("../assets/the-games-bg.jpg");
+}
+
+.third-page {
+    background-image: url("../assets/features.jpg");
+}
+
+.fourth-page {
+    background-image: url("../assets/requirements.png");
+}
+
+.fifth-page {
+    background-image: url("../assets/top-score-bg.png");
 }
