@@ -10,15 +10,19 @@ body {
     font-family: "Open Sans";
 }
 
-.btn {
+.btn-config {
     font-family: "Open Sans";
     font-weight: bolder;
+    font-size: 16px;
+    background-image: linear-gradient(#FFB548, #F3AF34);
+    padding: 15px 55px;
 }
 
 .logo {
     font-family: "Open Sans";
     font-weight: bold;
     font-size: 20px;
+    color: white;
 }
 
 .navigation {
@@ -26,11 +30,13 @@ body {
     font-weight: bold;
     font-size: 12px;
     padding: 15px;
+    color: white;
 }
 
-.navbar {
-    background-color: black;
-    opacity: 0.5;
+.navbar-config {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem 5rem 1rem 5rem;
+    /* opacity: 0.5; */
 }
 
 .jumbotron {
@@ -53,12 +59,66 @@ body {
     background-image: url("../assets/main-bg.jpg");
 }
 
-.first-page h1 {
-    font-family: "Open Sans";
+.first-page-story {
+    font-size: 12px;
+    line-height: 22px;
+    text-align: justify;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+
+@media screen and (min-width: 601px) {
+    .first-page-title {
+        font-family: Arial;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 62px;
+        line-height: 83px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+
+@media screen and (max-width: 600px) {
+    .first-page-title {
+        font-family: Arial;
+        font-style: normal;
+        font-size: 52px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+}
+
+.first-page-sub-title {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
 }
 
 .second-page {
     background-image: url("../assets/the-games-bg.jpg");
+}
+
+.page-sub-title {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    letter-spacing: 2px;
 }
 
 .third-page {
@@ -73,6 +133,34 @@ body {
     background-image: url("../assets/top-score-bg.png");
 }
 
+.sixth-page {
+    background-image: url(../assets/the-games-bg.jpg);
+}
+
 .mylist {
     list-style-type: circle;
+}
+
+.col-centered {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+}
+
+
+/* footer */
+
+.footer-color {
+    background-color: #080A0B;
+}
+
+.footer {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-size: 12px;
+}
+
+.footer li {
+    padding-left: 2rem;
 }
