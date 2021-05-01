@@ -110,6 +110,10 @@ h3 {
         text-transform: uppercase;
         color: #FFFFFF;
     }
+    .fourth-page-table {
+        background-image: url("../assets/disquette.png");
+        background-repeat: no-repeat;
+    }
 }
 
 
@@ -130,6 +134,9 @@ h3 {
         font-weight: normal;
         text-transform: uppercase;
         font-size: 46px;
+    }
+    .fourth-page-table {
+        background-image: none;
     }
 }
 
@@ -293,4 +300,14 @@ label {
     border-width: 10px; */
     width: 50px;
     height: 50px;
+}
+
+
+/* line */
+
+.vl {
+    border-left: 6px solid white;
+    height: 100;
+    margin-left: 1.4rem;
+    margin-bottom: 0.1rem;
 }
